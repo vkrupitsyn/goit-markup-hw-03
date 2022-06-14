@@ -243,8 +243,7 @@ ul {
 /* Наші роботи */
 
 .works {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .works .title {
   margin-bottom: 50px;
