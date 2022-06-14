@@ -39,14 +39,14 @@ ul {
   margin: 0;
 }
 
+.header {
+  border: 1px solid var(--border-color-header);
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.header {
-  border: 1px solid var(--border-color-header);
 }
 
 .list {
@@ -54,6 +54,11 @@ ul {
   margin: 0;
   letter-spacing: inherit;
   list-style: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section li {
@@ -206,36 +211,32 @@ ul {
 
 /* Наші привілеї */
 
-.privilege {
-  padding-top: 94px;
-}
-
-.privilege-list {
+.features-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.privilege-list .item {
+.features-list .item {
   width: 270px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.privilege-list .item:nth-child(4n) {
+.features-list .item:nth-child(4n) {
   margin-right: 0;
 }
 
-.privilege-list .item:nth-last-child(-n + 4) {
+.features-list .item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
 
-.privilege-title {
+.features-title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.privilege-text {
+.features-text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -270,11 +271,9 @@ ul {
 
 .team {
   background-color: var(--accent-bg-color);
-  padding-bottom: 94px;
 }
 
 .team .title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
